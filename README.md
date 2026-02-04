@@ -25,3 +25,17 @@ Follow these steps to get the project running locally on your machine.
 
 ### 1. Clone the Project
 ```bash
+```bash
+git clone [https://github.com/Shivamyv/Editor.git](https://github.com/Shivamyv/Editor.git)
+cd Editor
+2. Setup the Backend Server
+Bash
+cd backend
+npm install
+# Ensure you have a .env file set up (e.g., PORT=5000)
+npm start
+3. Setup the Frontend Client
+Bash
+cd ../realtime-editor
+npm install
+npm start
