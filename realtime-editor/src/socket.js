@@ -9,5 +9,6 @@ export const initSocket = async () => {
     };
     
     // Explicitly point to 5001 since that is what your server uses
-    return io(process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001', options);
+    // return io(process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001', options);
+    return io("https://realtime-editor-backend-3num.onrender.com", options);
 };
